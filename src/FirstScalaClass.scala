@@ -26,5 +26,6 @@ object FirstScalaClass{
     println("Person Address : "+person.address);
 
     new Animal("Dog","Pink").printName()
+    println("Done...");
   }
 }
