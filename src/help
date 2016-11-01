@@ -1,1 +1,7 @@
 How to setup git: https://www.youtube.com/watch?v=U7tF1nGxKjA
+
+quick summary of the yield keyword:
+
+   --  For each iteration of your for loop, yield generates a value which is remembered by the for loop (behind the scenes, like a buffer).
+   --  When your for loop finishes running, it returns a collection of all these yielded values.
+   --  The type of the collection that is returned is the same type that you were iterating over.
