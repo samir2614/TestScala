@@ -36,13 +36,14 @@ object CollectionList {
      println("\n----------------------------------------------")
 
     val outsiders = List(
-              new Person("Cliff Barnes", false,77),
-            new Person("Donna Culver Krebbs", true,56))
+            new Person("Cliff Barnes", false,77),
+            new Person("Donna Culver Krebbs", true,56)
+    )
 
     val groups = List(person2, outsiders)
     for(x1<-groups) println(x1)
      println("\n----------------------------------------------")
 
-
     }
   }
+
