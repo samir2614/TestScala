@@ -1,8 +1,9 @@
+package com.collection.demo
+
 /**
   * Created by samir on 1/11/16.
   */
-import scala.collection.immutable
-object CollectionsDemo {
+object CollectionArray {
   def main(args: Array[String]): Unit = {
     val arr= Array(1,2,3,4,5,6,7)
 
@@ -13,7 +14,7 @@ object CollectionsDemo {
     }
     println("\n---------------------------------")
     for (i<-0 until arr.length)
-    print(arr(i)+" ")
+      print(arr(i)+" ")
     println("\n---------------------------------")
     for(i<-arr){
       print(i+" ")
