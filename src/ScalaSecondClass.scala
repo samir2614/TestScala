@@ -27,5 +27,3 @@ object ScalaSecondClass extends App {
   println(new Pizza(14))
   println(new Pizza(16, "Thick"))
 }
-
-
